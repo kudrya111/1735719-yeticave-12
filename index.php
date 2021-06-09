@@ -15,7 +15,7 @@
     ];
 
     function format_price($price) {
-        return number_format($price, 0, ',', ' ') . ' ₽';
+        return number_format(ceil($price), 0, ',', ' ') . ' ₽';
     }
 ?>
 <!DOCTYPE html>
